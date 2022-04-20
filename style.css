@@ -1,7 +1,144 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
+body {
+    background-color: rgb(251, 251, 251);
+    font-family: 'Roboto', sans-serif;
+}
+.logo {
+    width: 55vw;
+}
+ img {
+    max-width: 300px;
+}
+
+#header {
+    display: flex;
+    position: fixed;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 80px;
+    background-color: rgb(251, 251, 251);
+}
+
+nav ul {
+    width: 45vw;
+    display: flex;
+    justify-content: space-around;
+}
+
+li {
+    list-style: none; 
+}
+a {
+    text-decoration: none;
+}
+/*nav-bar*/
+
+#hero {
+    margin-top: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;   
+}
+#email {
+    border-radius: 5px;
+    text-align: center;
+    height: 2em;
+    width: 25em;
+}
+#submit {
+    border-style: none;
+    margin-top: 15px;
+    background-color: rgb(242, 227, 17);
+    border-radius: 5px;
+    height: 2em;
+    width: 15em;
+}
+.container{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#features {
+    margin-top: 30px;
+}
+.box-lines {
+    display: flex;
+}
+.icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 10em;
+    height: 7em;
+    
+    
+}
+i {
+    font-size: 60px;
+    color: rgb(247, 156, 44);
+}
+
+#how-it-works {
+    margin-top: 40px;
+}
+#pricing {
+    display: flex;
+    flex-direction: row;
+    
+
+}
+
+.desc {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.tenor {
+    text-align: center;
+    margin: 10px;
+    border: 1px solid #121;
+    padding: 10px;
+}
+
+footer {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: rgb(149, 149, 149);
+}
+footer ul{
+    display: flex;
+    justify-content: flex-end;
+    color: azure;
+    
+}
+footer ul ol {
+    text-decoration: none;
+}
+
+footer span {
+    display: flex;
+    justify-content: flex-end;
+    color: aliceblue;
+}
+
+
+
+

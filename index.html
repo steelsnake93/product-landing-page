@@ -10,16 +10,15 @@
 </head>
 <body>
 
-    <div class="static-nav">
+    <div id="static-nav">
         <header id="header">
-            <div class="logo-img">
-                <i class="fa-solid fa-user-secret"></i>
-                <h2 class="logo-text">User Secrets</h2>
+            <div class="logo">
+                <img id="header-img" src="./img/original_trombones.png" alt="trombones logo">
             </div>
             <nav id="nav-bar">
                 <ul>
                     <li><a class="nav-link" href="#features">Features</a></li>
-                    <li><a class="nav-link" href="#howitworks">How It Works</a></li>
+                    <li><a class="nav-link" href="#how-it-works">How It Works</a></li>
                     <li><a class="nav-link" href="#pricing">Pricing</a></li>
                 </ul>
             </nav>
@@ -36,13 +35,13 @@
             type="email"
             placeholder="Enter your email address"
             required/>
-            <input id="submit" type="submit"/>
+            <input id="submit" type="submit" src=" https://www.freecodecamp.com/email-submit"/>
           </form>
        </section>
     </div>
 
     <div class="container">
-        <section id="offers">
+        <section id="features">
             <div class="box-lines">
                 <div class="icon"><i class="fa-solid fa-fire-flame-curved"></i></i></div>
                 <div class="desc">
@@ -69,13 +68,13 @@
         </section>
 
         <section id="how-it-works">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/ai1zmNO5Z3E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe id=video width="560" height="315" src="https://www.youtube.com/embed/ai1zmNO5Z3E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </section>
 
-        <div class="pricing">
+        <div id="pricing">
             
             <div class="tenor">
-                <div class="tenor-trombone">TENOR TROMBONE</div>
+                <div class="card">TENOR TROMBONE</div>
                 <h2>$600</h2>
                 <ul>
                     <ol>Lorem ipsum.</ol>
@@ -87,7 +86,7 @@
             </div>
 
             <div class="tenor">
-                <div class="bass-trombone">BASS TROMBONE</div>
+                <div class="card">BASS TROMBONE</div>
                 <h2>$900</h2>
                 <ul>
                     <ol>Lorem ipsum.</ol>
@@ -99,7 +98,7 @@
             </div>
 
             <div class="tenor">
-                <div class="valve-trombone">VALVE TROMBONE</div>
+                <div class="card">VALVE TROMBONE</div>
                 <h2>$1200</h2>
                 <ul>
                     <ol>Lorem ipsum.</ol>
@@ -111,17 +110,17 @@
             </div>
 
         </div>
-
-        <footer>
+    </div> 
+    
+    <footer>
             
-            <ul>
-                <ol><a href="#">Privacy</a></ol>
-                <ol><a href="#">Terms</a></ol>
-                <ol><a href="#">Contact</a></ol>
-            </ul>
+        <ul>
+            <ol><a href="#">Privacy</a></ol>
+            <ol><a href="#">Terms</a></ol>
+            <ol><a href="#">Contact</a></ol>
+        </ul>
 
-            <span>Copyright 2022, Original Trombones</span>
-        </footer>
-    </div>    
+        <span>Copyright 2022, Original Trombones</span>
+    </footer>
 </body>
 </html>
