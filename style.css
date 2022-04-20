@@ -15,7 +15,9 @@ body {
     width: 55vw;
 }
  img {
-    max-width: 300px;
+    
+   width: 300px;
+
 }
 
 #header {
@@ -39,6 +41,7 @@ li {
 a {
     text-decoration: none;
 }
+
 /*nav-bar*/
 
 #hero {
@@ -95,14 +98,23 @@ i {
     color: rgb(247, 156, 44);
 }
 
+@media (max-width: 600px) {
+    .box-lines{
+        text-align: center;
+        justify-content: center;
+        padding: 1em 3em ;
+    }
+    .icon {
+        display: none;
+    }
+}
+
 #how-it-works {
     margin-top: 40px;
 }
 #pricing {
     display: flex;
-    flex-direction: row;
-    
-
+    margin-top: 50px;
 }
 
 .desc {
@@ -113,11 +125,43 @@ i {
 
 .tenor {
     text-align: center;
-    margin: 10px;
+    margin: 15px;
     border: 1px solid #121;
-    padding: 10px;
+    
+    
+}
+.tenor .card {
+    background-color: rgb(222, 222, 222);
+    padding:  10px 30px ;
+    font-weight: bold;
+    font-size: 14px;
 }
 
+.tenor h2 {
+    margin-top: 15px;
+}
+
+.tenor ul {
+    margin-top: 15px;
+}
+.tenor ul ol {
+    font-size: medium;
+    padding-bottom: 5px;
+}
+.tenor .btn {
+    width: 7em;
+    height: 2.3em;
+    margin: 15px 0;
+    border-radius: 2px;
+    border-style: none;
+    background-color: rgb(251, 226, 63);
+}
+@media(max-width: 600px) {
+ 
+    #pricing {
+        flex-wrap: wrap;
+    }
+}
 footer {
     margin-top: 20px;
     padding: 15px;
@@ -131,9 +175,11 @@ footer ul{
 }
 footer ul ol {
     text-decoration: none;
+    padding: 0 10px;
 }
 
 footer span {
+    margin-top: 5px;
     display: flex;
     justify-content: flex-end;
     color: aliceblue;
